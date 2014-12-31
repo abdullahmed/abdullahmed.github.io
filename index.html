@@ -1,10 +1,55 @@
-<!doctype>
+<!doctype html>
 <html>
-	<head>
-		<title>test</title>
-	</head>
-	<body>
-		<b>this is for testing</b><br>
-		<b>this is for second testing</b>
-	</body>
+<head>
+`<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oliver Queen</title>
+
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#menu">
+	
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Oliver Queen</a>
+				</div>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active" data-toggle="collapse" data-target="#menu"><a class="internal" href="#home">Home</a></li>
+						<li data-toggle="collapse" data-target="#menu"><a class="internal" href="#summary">Summary</a></li>
+						<li data-toggle="collapse" data-target="#menu"><a class="internal" href="#skills">Skills</a></li>
+						<li data-toggle="collapse" data-target="#menu"><a class="internal" href="#">Projects</a></li>
+						<li data-toggle="collapse" data-target="#menu"><a class="internal" href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+<div class="dropdown">
+	<button class="btn dropdown-toggle" type="button" id="dd-menu" data-toggle="dropdown">dropdown<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu">
+		<li role="presentation" class="divider"><a href="#" role="menuitem" tabindex="-1">list item</a></li>
+		<li role="presentation" class="divider"><a href="#" role="menuitem" tabindex="-1">list item</a></li>
+		<li role="presentation" class="divider"><a href="#" role="menuitem" tabindex="-1">list item</a></li>
+		
+	</ul>
+
+</div>		
+				
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
 </html>
