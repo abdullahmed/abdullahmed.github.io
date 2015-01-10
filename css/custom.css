@@ -38,8 +38,17 @@ body {
 	text-align: center;
 	font-size: 3em;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .thumbnail img{
 	height: 100px;
-	width: maximum;
+	padding: 10px;
+}
+.span img{
+	height: 150px;
+	width: 250px;
+}
+.span1 img{
+	height: 150px;
+	width: 200px;
 }
