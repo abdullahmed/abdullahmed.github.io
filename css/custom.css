@@ -41,14 +41,18 @@ body {
 	padding-bottom: 10px;
 }
 .thumbnail img{
-	height: 100px;
-	padding: 10px;
+	height: 150px;
+	padding: 20px;
+	padding-bottom: 2px;
 }
-.span img{
+.span1 img{
+	width: 250px;
+}
+.span5 img{
 	height: 150px;
 	width: 250px;
 }
-.span1 img{
+.span4 img{
 	height: 150px;
 	width: 200px;
 }
