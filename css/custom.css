@@ -4,7 +4,7 @@ body {
 	background: whites;
 }
 #home h1{
-	font-family: cursive;
+	font-family: sans-serif;
 }
 
 #summary span.glyphicon {
@@ -32,7 +32,7 @@ body {
 }
 #home p.lead{
 	font-size: 2em;
-	font-family: cursive;
+	font-family: sans-serif;
 }
 #skills h2{
 	text-align: center;
@@ -41,4 +41,5 @@ body {
 }
 .box img{
 	height: 100px;
+	width: maximum;
 }
