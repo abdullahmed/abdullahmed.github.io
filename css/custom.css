@@ -48,7 +48,11 @@ body {
 .span1 img{
 	width: 250px;
 }
-
+.span3 img{
+	height: 150px;
+	width: 250px;
+	background-color: white;
+}
 .span5 img{
 	height: 150px;
 	width: 250px;
